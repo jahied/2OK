@@ -129,7 +129,7 @@ def back():
 def banner():
 	clear()
 	sol()
-	ban=''' © Brute forse Facebook account
+	ban=
   ____        _    _   _______ ______          __  __ 
  |  _ \      | |  | | |__   __|  ____|   /\   |  \/  |
  | |_) |_____| |__| |    | |  | |__     /  \  | \  / |
