@@ -396,12 +396,12 @@ logo = ("""
 \033[93;1m |____/      |_|  |_|    |_|  |______/_/    \_\_|  |_|
                                                    
    \x1b[1;92m╔═════════════════════════════╗
-   \x1b[1;92m║➣TOOL NAME        : 𝐁𝐇𝐓-𝐔𝐈𝐃   ║
-   \x1b[1;92m║➣AUTHOR               : 𝐁𝐃-𝐉𝐀𝐇𝐈𝐄𝐃      ║
-   \x1b[1;92m║➣GITHUB                 : 𝐁𝐋𝐀𝐂𝐊-𝐇𝐔𝐍𝐓𝐄𝐑-𝐓𝐄𝐀𝐌 ║
-   \x1b[1;92m║➣FACEBOOK            : 𝐁𝐝 𝐉𝐚𝐡𝐢𝐞𝐝   ║
-   \x1b[1;92m║➣Group                     : 𝐁𝐋𝐀𝐂𝐊 𝐇𝐔𝐍𝐓𝐄𝐑 𝐓𝐄𝐀𝐌 ║
-   \x1b[1;92m║➣WHATSAPP           : +8801747951169     ║
+   \x1b[1;92m║➣TOOL NAME : 𝐁𝐇𝐓-𝐔𝐈𝐃             ║
+   \x1b[1;92m║➣AUTHOR    : 𝐁𝐃-𝐉𝐀𝐇𝐈𝐄𝐃           ║
+   \x1b[1;92m║➣GITHUB    : 𝐁𝐋𝐀𝐂𝐊-𝐇𝐔𝐍𝐓𝐄𝐑-𝐓𝐄𝐀𝐌 ║
+   \x1b[1;92m║➣FACEBOOK  : 𝐁𝐝 𝐉𝐚𝐡𝐢𝐞𝐝             ║
+   \x1b[1;92m║➣Group     : 𝐁𝐋𝐀𝐂𝐊 𝐇𝐔𝐍𝐓𝐄𝐑 𝐓𝐄𝐀𝐌 ║
+   \x1b[1;92m║➣WHATSAPP  : +8801747951169      ║
    \x1b[1;92m╚═════════════════════════════╝""")
 
 class Main:
@@ -1294,7 +1294,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/jahied/main/blob/main/file1.txt/file1.txt").text
+	r1=requests.get("https://github.com/jahied/file1.txt/blob/main/file2.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
