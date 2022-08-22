@@ -387,7 +387,7 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""
+logo = """
 \033[93;1m  ____        _    _   _______ ______          __  __ 
 \033[1;32m |  _ \      | |  | | |__   __|  ____|   /\   |  \/  |
 \033[91;1m | |_) |_____| |__| |    | |  | |__     /  \  | \  / |
