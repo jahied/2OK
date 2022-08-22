@@ -309,7 +309,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[Cracking ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[Cracking] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -348,7 +348,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[Cracking ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[Cracking] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -395,12 +395,12 @@ logo = """
 \033[94;1m | |_) |     | |  | |    | |  | |____ / ____ \| |  | |
 \033[93;1m |____/      |_|  |_|    |_|  |______/_/    \_\_|  |_|                                                                                                                                                                                                        
 
-\033[0;95m═════════════════════════════════════════════
+\033[0;95m═══════════════════════════════════════════════════
 \033[0;94m [!]\033[0;91mTOOL OWER :\033[0;92m𝐌𝐃 𝐉𝐀𝐋𝐀𝐋 𝐀𝐇𝐌𝐄𝐃 𝐎𝐌𝐈       
-\033[0;94m [!]\033[0;91mTOOL NAME :\033[0;92m 𝐏𝐑𝐎-𝐎𝐌𝐈
+\033[0;94m [!]\033[0;91mTOOL NAME :\033[0;92m𝐏𝐑𝐎-𝐎𝐌𝐈
 \033[0;94m [!]\033[0;91mVERSION   :\033[0;92m3.0.1
 \033[0;94m [!]\033[0;91mGROUP     :\033[0;92m𝐁𝐋𝐀𝐂𝐊 𝐇𝐔𝐍𝐓𝐄𝐑 𝐓𝐄𝐀𝐌
-\033[0;95m═════════════════════════════════════════════"""
+\033[0;95m═══════════════════════════════════════════════════"""
 
 class Main:
 	def __init__(self):
@@ -1255,7 +1255,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ 𝐓𝐑𝐘 𝐓𝐎 𝐋𝐎𝐆𝐈𝐍 ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [Cracking] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
