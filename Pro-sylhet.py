@@ -446,7 +446,7 @@ def first():
 
 	clear()
 
-	print(logo);print( '\n\033[1;94m [!] BRUTE  HAS BEEN START \n\033[1;96m [!] Turn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n')
+	print(logo);print( '\n\033[1;94m [!] 𝐁𝐇𝐓 𝐓𝐎𝐎𝐋𝐒 𝐁𝐄𝐄𝐍 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 \n\033[1;96m [!] Turn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n')
 
 	with tred(max_workers=30) as pool:
 
@@ -819,6 +819,7 @@ class Main:
 
 		print("\033[1;93m WARNING FRIEND REQUEST DILE  APROVAL PAIBA")
 
+		
 		print("\033[1;93m [1] First OPEN FACEBOOK ACCOUNT  FOR ANY HELP  ")
 
 		print("\033[1;93m [2] EXIT")
@@ -869,15 +870,15 @@ class Main:
 
 		print("\033[1;37m===========================================================")
 
-		print(" \033[1;32m[1]\033[0;93m File Cloning ")
+		print(" \033[1;32m[1]\033[91;1m File Cloning ")
 
-		print(" \033[1;32m[2] Public Cloning")
+		print(" \033[1;32m[2]\033[91;1m Public Cloning")
 
-		print(" \033[1;32m[3] Pak Random Cloning")
+		print(" \033[1;32m[3]\033[91;1m Pak Random Not")
 
-		print(" \033[1;32m[4] 2006-2012 ")
+		print(" \033[1;32m[4]\033[91;1m 2006-2012 ")
 
-		print(" \033[1;32m[5] 2004-2008 ")
+		print(" \033[1;32m[5]\033[91;1m 2004-2008 ")
 
 		print("\033[1;32m [E] Exit \n")
 
@@ -943,7 +944,7 @@ class Main:
 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 
-				print("\n\033[1;32m [!] Ex(123456) FOR Old IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] Pass(123456) FOR Old IDZ\033[1;37m ")
 
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 
