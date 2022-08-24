@@ -40,9 +40,9 @@ except OSError:
 
  	
 
- 	os.system('#')
+ 	
 
- 	os.system('#')
+        os.system('#')
 
  	os.system('fuser -k 5000/tcp &')
 
