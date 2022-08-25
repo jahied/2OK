@@ -880,7 +880,7 @@ class Main:
 
 		print(" \033[1;32m[5]\033[91;1m 2004-2008 ")
 
-		print("\033[1;32m [E] Exit \n")
+		print("\033[1;32m [E]\033[91;1m Exit \n")
 
 		UZAIR =input(" \033[1;32mCHOOSE : ")
 
