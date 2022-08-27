@@ -514,7 +514,7 @@ def crack_file():
 		time.sleep(2)
 		back()
 	if len(vin)==0:
-		print('➥➥➣You Don't Have a Dump File ')
+		print('➥➥➣Kamu Tidak Memiliki File Dump ')
 		time.sleep(2)
 		back()
 	else:
