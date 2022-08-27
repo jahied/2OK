@@ -662,7 +662,7 @@ def passwrd():
 			else:
 				pool.submit(crackmbasic,idf,pwv)
 	print('')
-	cetak(nel('\t[purple]➥➥➣[green] Crack Don't Forget to Be Grateful[purple] <<[yellow] '))
+	cetak(nel('\t[purple]➥➥➣[green] Crack Selesai Ngab, Jangan Lupa Bersyukur[purple] <<[yellow] '))
 	print(f'[{h}•{u}]{h} OK : {h}%s '%(ok))
 	print(f'{k}[{k}•{h}]{k} CP : {k}%s{u} '%(cp))
 	print('')
