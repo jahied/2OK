@@ -320,7 +320,7 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		jum = int(input('➥➥➣HOW TARGET  ? : '))
+		jum = int(input('➥➥➣HOW TO TARGET  ? : '))
 	except ValueError:
 		print('{k}➥➥➣WRONG THE  YOU AR BAD LUCK ')
 		exit()
@@ -331,7 +331,7 @@ def dump_massal():
 	yz = 0
 	for met in range(jum):
 		yz+=1
-		kl = input('➥➥➣INPUT ID KE '+str(yz)+' : ')
+		kl = input('➥➥➣INPUT ID '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:
