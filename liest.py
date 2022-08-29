@@ -166,7 +166,7 @@ def login_lagi334():
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1))
 		cok=open(".cok.txt", "w").write(cookie)
-		print(f'  {u}[{h}•{u}]{h} LOGIN BERHASIL.........Jalankan Lagi Perintahnya!!!!{k} ');time.sleep(1)
+		print(f'  {u}[{h}•{u}]{h} SUCCESSFUL LOGIN!!!!{k} ');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
@@ -190,7 +190,7 @@ def menu(my_name,my_id):
 	alvino_xy(f'{h}IP  : {ip}')
 	cetak(nel('\t[bold cyan]           • CHOOSE NOW • [/bold cyan]'))
 	print('')
-	cetak(nel('[bold green] 1. Crack Publik\n 2. Crack Follower\n 3. Crack Grup\n 4. Crack File\n 5. Results Crack\n 0. Exit [bold green]')) 
+	cetak(nel('[bold green] 1. Crack Publik\n 0. Exit [bold green]')) 
 	_____cowok__pink_____ = input('\n➥➥➣Select : ')
 	if _____cowok__pink_____ in ['1']:
 		dump_massal()
