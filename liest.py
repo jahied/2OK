@@ -601,7 +601,7 @@ def setting():
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
 	cetak(nel('[bold cyan]               WELCOME TO RESULTS, YOU ARE LUCKY[bold cyan]')) 
-	print(f'                    {m}H {k}A {h}R {u}A {b}P {u}  ★  {b}S {u}A {h} B{k} A{m} R{b}')
+	print(f'                    {m}B {k}L {h}A {u}C {b}K   ★  {b}H {u}U {h}N T{k} E{m} R{b}')
 	print('')
 	print(f'➥➥➣The results of the {h}OK{u} Stored Di : {h}OK/%s {b}'%(okc))
 	print(f'➥➥➣The results of the {k}CP{h} Stored Di : {k}CP/%s {b}'%(cpc))
