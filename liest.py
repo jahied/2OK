@@ -900,7 +900,7 @@ def crackmbasic(idf,pwv):
 					print('\n')
 					statusok = f'[bold green][•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}[/bold green]\n{infoakun}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='[bold green]PINK-XD OK[/bold green]'))
+					cetak(nel(statusok1, title='[bold green]BHT-XD OK[/bold green]'))
 					ok+=1
 					break
 			else:
