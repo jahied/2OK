@@ -134,7 +134,7 @@ def banner():
  |  _ <______|  __  |    | |  |  __|   / /\ \ | |\/| |
  | |_) |     | |  | |    | |  | |____ / ____ \| |  | |
  |____/      |_|  |_|    |_|  |______/_/    \_\_|  |_|'''
-	cetak(nel(ban, style='blue'))
+	cetak(nel(ban, style='read'))
 #--------------------[ PART-INCLUDING ]--------------#
 def login():
 	try:
@@ -538,7 +538,7 @@ def crack_file():
 def setting():
 	cetak(nel('\t[bold cyan]         • TEACHERS FIND THE ACCOUNT • [/bold cyan]'))
 	print('') 
-	cetak(nel('[bold yellow]1. CLONE JUST OLD IDZ \n 2. CLONE JUST NEW IDZ(RECOMEND)\n 3. CLONE MIX IDZ (NEW/OLD)=>RECOMEND [bold yellow]'))
+	cetak(nel('[bold yellow] 1. CLONE JUST OLD IDZ \n 2. CLONE JUST NEW IDZ(RECOMEND)\n 3. CLONE MIX IDZ (NEW/OLD)=>RECOMEND [bold yellow]'))
 	print('')
 	hu = input('➥➥➣Select : ')
 	if hu in ['1','01']:
