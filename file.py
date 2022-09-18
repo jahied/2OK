@@ -19,7 +19,7 @@ except ImportError:
     os.system('pip install bs4')
 
 import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
-from concurrent.futures import ThreadPoolExecutor as BH-TEAM
+from concurrent.futures import ThreadPoolExecutor as sarfrazssb
 from datetime import datetime
 from bs4 import BeautifulSoup
 
