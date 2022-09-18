@@ -465,6 +465,6 @@ def auto():
     
     try:Main()
 
-except Exception as e:exit(str(e))
+except Exception as e:exit(str(e
     
 
