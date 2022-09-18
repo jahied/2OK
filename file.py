@@ -463,8 +463,9 @@ def auto():
     input('  Press enter to back ')
     Main()
     
-    try:Main()
+    
 
 
     
 
+sarfraz()
