@@ -133,11 +133,11 @@ def banner():
        print(f'''\t{M} 
 
 			
-	 [➣] OWNER :        BD JAHIED
-	 [➣] FACEBOOK:          JAHIED HUSAIN
-	 [➣] VERSION :       0.4
+	 [➣] OWNER   :   BD JAHIED
+	 [➣] FACEBOOK:   JAHIED HUSAIN
+	 [➣] VERSION :   0.4
 	 
-	 \x1b[92;1mTHIS TOOL CRATE BY BD ''')
+	 \x1b[92;1mTHIS TOOL CRATE BY BD JAHIED ''')
 			
 			
 #--------------------[ BAGIAN-MASUK ]--------------#
