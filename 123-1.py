@@ -155,9 +155,9 @@ print(f"""{H}
 {A}║                            {O} MULTI {K}BRUTEFORCE                             	  	      						 {A}║
 {A}║                            {A} AUTHOR    {P}: {H}BD JAHIED                                   						 {A}║
 {A}║                            {A} Group         {P}: {H}BLACK HUNTER TEAM              						 {A}║
-{A}║                            {A} Facebook  {P}: {H}JAHIED HUSAIN                          						 {A}║
-{A}╚══════════════════════════════════════════════════════╝
-""")
+                          						 {A}║
+
+
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
