@@ -137,7 +137,7 @@ def banner():
 	 [➣] GROUP    :        BLACK HUNTER TEAM 
 	 [➣] VERSION :        0.4
 	 
-	 \x1b[92;1mTHIS TOOL CRATE BY BD JAHIED
+	 \x1b[92;1mTHIS TOOL CRATE BY BD ''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
