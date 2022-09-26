@@ -130,7 +130,7 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-print(f'''\t{M} 
+       print(f'''\t{M} 
 
 			
 	 [➣] OWNER :        BD JAHIED
