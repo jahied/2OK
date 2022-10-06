@@ -1144,7 +1144,7 @@
      print '[\xe2\x9c\x92] \x1b[1;92mTOTAL SUCCESSFULL/CHECKPOINT : ' + str(len(oks)) + '/' + str(len(cpb)) 
      print '[\xe2\x9c\x93] \x1b[1;92mCP FILE HAS BEEN SAVED : save/checkpoint.txt' 
      raw_input('\n[\x1b[1;96mPRESS ENTER TO GO BACK]') 
-     os.system('python2 world.py') 
+     os.system('python2') 
   
   
  if __name__ == '__main__': 
