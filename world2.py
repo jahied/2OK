@@ -60,7 +60,7 @@ p = '\x1b[0;34m' # BIRU +
  except ImportError: 
      os.system('pip2 install mechanize') 
      time.sleep(1) 
-     os.system('python2 C') 
+     os.system('python') 
   
  from multiprocessing.pool import ThreadPool 
  from requests.exceptions import ConnectionError 
@@ -1158,7 +1158,7 @@ p = '\x1b[0;34m' # BIRU +
      print '[\xe2\x9c\x92] \x1b[1;92mTOTAL SUCCESSFULL/CHECKPOINT : ' + str(len(oks)) + '/' + str(len(cpb)) 
      print '[\xe2\x9c\x93] \x1b[1;92mCP FILE HAS BEEN SAVED : save/checkpoint.txt' 
      raw_input('\n[\x1b[1;96mPRESS ENTER TO GO BACK]') 
-     os.system('python2 world.py') 
+     os.system('python world.py') 
   
   
  if __name__ == '__main__': 
