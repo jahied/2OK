@@ -44,7 +44,21 @@ p = '\x1b[0;34m' # BIRU +
   
  import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass 
  os.system('rm -rf .txt') 
- for n in range(40000): 
+
+ def psb(z):
+
+    for e in z + '\n':
+
+        sys.stdout.write(e)
+
+        sys.stdout.flush()
+
+        time.sleep(0.03)
+ 
+ 
+ 
+ 
+ for n in range(40000): 
      nmbr = random.randint(111111, 999999) 
      sys.stdout = open('.txt', 'a') 
      print nmbr 
