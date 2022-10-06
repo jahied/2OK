@@ -1,7 +1,3 @@
-#Auther Alienrazor  
- #python2 script 2022 
-  
- 
 P = '\x1b[1;97m'
 
 M = '\x1b[1;91m'
