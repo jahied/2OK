@@ -96,20 +96,20 @@ def banner():
                                 
 
                       
-\x1b[92;1m===================================>\x1b[92;1m
-\x1b[93;1m Author       \x1b[92;1m=>      \x1b[93;1mBD JAHIED
-\x1b[93;1m Whatsapp     \x1b[92;1m=>      \x1b[93;1m+8801747951169
-\x1b[93;1m Group       \x1b[92;1m=>      \x1b[93;1mBLACK HUNTER TEAM
-\x1b[92;1m===================================>\x1b[92;1m
+\033[91;1<===================================>\033[91;1m
+\x1b[93;1m Author       \x1b[92;1m=> \x1b[93;1mBD JAHIED
+\x1b[93;1m Whatsapp     \x1b[92;1m=> \x1b[93;1m+8801747951169
+\x1b[93;1m Group        \x1b[92;1m=> \x1b[93;1mBLACK HUNTER TEAM
+\033[91;1<===================================>\033[91;1m
 """%(h))
 		
 def menu(): #Bilo
 	banner()
 	print("") #Bilo
-	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(h))
+	print("""%s \033[91;1<===================================>\033[91;1m """%(h))
 	print("""%s \33[1;33m[1] File Crack  """%(h))
 	print("""%s \33[1;33m[0] Exit"""%(h))
-	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(h))
+	print("""%s \033[91;1<===================================>\033[91;1m """%(h))
 	farhan = input(x+'\33[1;96m•Input Number> ')
 	if farhan in ['1','01']:
 		File2()
@@ -168,7 +168,7 @@ def passwrd():
 	banner()
 	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(h))
 	print(x+' '+h+' '+x+' Total ids : '+str(len(id)))
-	print(x+'   [  IF NO RESULT USE AIRPLANE MODE  ]\n   Cracking Starting...')
+	print(x+'   [IF NO RESULT USE AIRPLANE MODE]\n   Cracking Starting...')
 	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(h))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
