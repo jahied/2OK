@@ -70,9 +70,11 @@ def o():
         return None
     if opt == '3':
         os.system('xdg-open https://youtube.com/channel/UCzpqRlRaLASqwsWvsPuCdwQ')
+        i()
         return None
     if opt == '4':
         os.system('xdg-open https://www.facebook.com/profile.php?id=100076888617615')
+        i()
         return None
     if None == '0':
         os.system('exit')
