@@ -54,7 +54,7 @@ def FD():
 def o():
     os.system('clear')
     jalan(logo)
-    jalan('\ðŸ”¥ðŸ”¥RANDOM NUMBER CRACKðŸ”¥ðŸ”¥)
+    jalan('\ðŸ”¥ðŸ”¥RANDOM NUMBER CRACKðŸ”¥ðŸ”¥')
     print('')
     jalan('\x1b[1;32m [1]\x1b[1;33m RANDOM CRACK ')
     jalan('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
