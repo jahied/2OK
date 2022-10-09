@@ -64,13 +64,13 @@ def o():
     opt = input('\n   \x1b[1;32m Choose option >>> ')
     if opt == '1':
         i()
-    if None == '2':
+    if opt == '2':
         os.system('xdg-open https://facebook.com/ROOT.OFF.JAHIED')
         return None
-    if None == '3':
+    if opt == '3':
         os.system('xdg-open https://youtube.com/channel/UCzpqRlRaLASqwsWvsPuCdwQ')
         return None
-    if None == '4':
+    if opt == '4':
         os.system('xdg-open https://www.facebook.com/profile.php?id=100076888617615')
         return None
     if None == '0':
