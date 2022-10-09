@@ -58,8 +58,8 @@ def o():
     print('')
     jalan('\x1b[1;32m [1]\x1b[1;33m RANDOM CRACK ')
     jalan('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
-    jalan(' \x1b[1;32m[3] \x1b[1;32SUBSCRIBE MY CHANNEL)
-    jalan(' \x1b[1;32m[4] \x1b[1;32JOIN MY PAGE)
+    jalan(' \x1b[1;32m[3] \x1b[1;32mSUBSCRIBE MY CHANNEL)
+    jalan(' \x1b[1;32m[4] \x1b[1;32mJOIN MY PAGE)
     jalan(' \x1b[1;32m[00] \x1b[1;31mEXIT')
     opt = input('\n   \x1b[1;32m Choose option >>> ')
     if opt == '1':
