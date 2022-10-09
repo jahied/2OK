@@ -66,6 +66,7 @@ def o():
         i()
     if opt == '2':
         os.system('xdg-open https://facebook.com/ROOT.OFF.JAHIED')
+        i()
         return None
     if opt == '3':
         os.system('xdg-open https://youtube.com/channel/UCzpqRlRaLASqwsWvsPuCdwQ')
