@@ -187,7 +187,7 @@ logo = """
 \033[0;94m [!]\033[0;91mTOOL OWER :\033[0;92m𝐁𝐃 𝐉𝐀𝐇𝐈𝐄𝐃       
 \033[0;94m [!]\033[0;91mTOOL NAME :\033[0;92m𝐑𝐀𝐍𝐃𝐎𝐌-𝐁.𝐈.𝐏
 \033[0;94m [!]\033[0;91mVERSION   :\033[0;92m0.2.4
-\033[0;94m [!]\033[0;91mGROUP       :\033[0;92m𝐁𝐋𝐀𝐂𝐊 𝐇𝐔𝐍𝐓𝐄𝐑 𝐓𝐄𝐀𝐌
+\033[0;94m [!]\033[0;91mGROUP     :\033[0;92m𝐁𝐋𝐀𝐂𝐊 𝐇𝐔𝐍𝐓𝐄𝐑 𝐓𝐄𝐀𝐌
 \033[0;95m═══════════════════════════════════════════"""                                        
 loop = 0
 oks = []
@@ -346,7 +346,7 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-           today print('    \33[1;30m(BHT-CP)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+           today print('    \033[1;30m(BHT-CP)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
                 open('/sdcard/BHT-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
