@@ -107,9 +107,9 @@ class Main:
                                                                                                 
 \033[1;90m══════════════════════════════════════════════════
 \033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mFACEBOOK : JAHIED HUSAIN 
-\033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mFB GROUP  : TEAM-11 
-\033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mGITHUB       : TEAM-GITHUB.COM
-\033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mWhatsapp   : +8801747951169
+\033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mFB GROUP : TEAM-11 
+\033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mGITHUB   : TEAM-GITHUB.COM
+\033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mWhatsapp : +8801747951169
 \033[1;90m══════════════════════════════════════════════════
     """)
 		print("%s [%s•%s] %sTOOL NAME : %sSuper Speed Uid Cloning"%(G,R,G,B,G))
@@ -438,7 +438,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 11; RMX2195) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36;]"
 		])
 		sys.stdout.write(
-			"\r\r %s[>_] [TEAM-11_OLD] : %s/%s -> \033[0;92m [ TEAM-11-OK:%s ]- \033[0;91m[TEAM-11-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[>_] [TEAM-11] : %s/%s -> \033[0;92m [ TEAM-11-OK:%s ]- \033[0;91m[TEAM-11-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
