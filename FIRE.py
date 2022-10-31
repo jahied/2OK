@@ -204,7 +204,7 @@ class __crack__:
 		self.__pler__()
 	def __mbasic__(self, user, _sempak_):
 		global ok,cp,loop
-		sys.stdout.write(f"\r \x1b[1;97m[\033[1;36mPicchi\033[1;37m] {loop}/{len(self.id)} \033[1;37m[\033[1;36mTOTAL-Id\033[1;37m] \033[1;37m[\033[1;36m{len(ok)}\033[1;37m]")
+		sys.stdout.write(f"\r \x1b[1;97m[\033[1;36mBH-TEAM\033[1;37m] {loop}/{len(self.id)} \033[1;37m[\033[1;36mTOTAL-Id\033[1;37m] \033[1;37m[\033[1;36m{len(ok)}\033[1;37m]")
 		sys.stdout.flush()
 		for pw in _sempak_:
 			pw = pw.lower()
