@@ -21,15 +21,15 @@ def o():
     if opt == '2':
         os.system('xdg-open https://www.facebook.com/profile.php?id=ROOT.OF.JAHIED')
         i()
-        return None
+        
     if opt == '3':
         os.system('xdg-open https://www.facebook.com/groups/367443570366706/?ref=share')
         i()
-        return None
+        
     if opt == '4':
         os.system('xdg-open https://www.facebook.com/profile.php?id=100076888617615')
         i() 
-       return None
+       
     if None == '0':
         os.system('exit')
         return None
