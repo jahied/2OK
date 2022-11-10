@@ -19,7 +19,7 @@ def o():
     if opt == '1':
         i()
     if opt == '2':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=ROOT.OF.JAHIED')
+        os.system('xdg-open https://www.facebook.com/ROOT.OF.JAHIED')
         i()
         
     if opt == '3':
@@ -61,7 +61,7 @@ def cek_apk(session,coki):
     if len(game)==0:
         print(f'\r%s[%s!%s] %sSorry there is no Active  Apk%s  '%(N,M,N,M,N))
     else:
-        print(f'\r[ðŸŽ®] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
+        print(f'\r[BH-TEAM] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
         for i in range(len(game)):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
         #else:
