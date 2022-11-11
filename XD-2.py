@@ -224,7 +224,7 @@ def i():
         tl = str(len(user))
         print('\033[1;95m[\033[1;93m[🎲]\033[1;95m]\033[1;93m TOTAL IDS: \033[1;91m'+tl)
         print('\033[1;95m[\033[1;93m[🎲]\033[1;95m]\033[1;93m THE PROCESS HAS BEEN STARTED')
-        print('\033[1;95m[\033[1;93m[✈️]\033[1;95m]\033[1;91m USE AIRPLANE MODE 5 SECOND ')
+        print('\033[1;95m[\033[1;93m[✈️ ]\033[1;95m]\033[1;91m USE AIRPLANE MODE 5 SECOND ')
         print('\33[1;32m───────────────────────────────────────────────────────')
         for love in user:
             pwx = [love, 'bangladesh','Bangladesh','khankhan','khan12345']
