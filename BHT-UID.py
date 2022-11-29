@@ -395,14 +395,14 @@ logo = ("""
  \033[91;1m| |  | | | (_| |  / . \     | |  
  \033[93;1m|_|  |_|  \__,_| /_/ \_\    |_|  
                                                    
-   \x1b[1;92m╔════════════════════════════════════════════
-   \x1b[1;92m║➣TOOL NAME : MAX-4                          
-   \x1b[1;92m║➣AUTHOR    : Mizanur Rahman Shrob                      
-   \x1b[1;92m║➣GITHUB    : MaX-4              	
-   \x1b[1;92m║➣FACEBOOK  : Mizanur Rahman Shrob                
-   \x1b[1;92m║➣Group     : MaX4 Squad                     
-   \x1b[1;92m║➣WHATSAPP  : +8801.........                 
-   \x1b[1;92m╚════════════════════════════════════════════""")
+   \x1b[1;92m════════════════════════════════════════════
+   \x1b[1;92m➣TOOL NAME : MAX-4                          
+   \x1b[1;92m➣AUTHOR    : Mizanur Rahman Shrob                      
+   \x1b[1;92m➣GITHUB    : MaX-4              	
+   \x1b[1;92m➣FACEBOOK  : Mizanur Rahman Shrob                
+   \x1b[1;92m➣Group     : MaX4 Squad                     
+   \x1b[1;92m➣WHATSAPP  : +8801.........                 
+   \x1b[1;92m════════════════════════════════════════════""")
 
 class Main:
 	def __init__(self):
