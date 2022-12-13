@@ -166,10 +166,10 @@ def xyz():
     
     print('           \x1b[97m[\033[37;41m  FIRST JOIN THE GROUP  \033[0;m] ')
     print(f"")
-    print(f"[01]   {WHITE}START RANDOM CLONING")
+    print(f"[01]   {WHITE}START CLONING")
     print(f"[E]     \033[1;31mEXIT PROGRAM ")
     print(f"")
-    print(f"\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬")
+    print(f"\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬")
     USMAN = input(" \033[1;39mCHOOSE : ")
     if USMAN in ["1","1"]:
         Random()
@@ -218,7 +218,7 @@ def Random():
         print(f" {BLUE}NUMBER YOU PUT \033[1;39m◈\033[1;32m✙\033[1;39m◈  {RED}"+code)
         print(f" {WHITE}PROCESS HAS BEEN STARTED")
         print(f" {RED}IF NO RESULT USE AIRPLANE MODE ")
-        print(f'\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬')
+        print(f'\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬')
         for love in user:
             uid = code+love
             pwx = [love]
