@@ -114,7 +114,7 @@ else:
 #####     ####
 
 def linex():
-    print(f'\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬')
+    print(f'\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬')
 def checks(oks,cps,twf):
     if not len(oks) != 0:
         pass
@@ -154,7 +154,7 @@ def cek_apk(session,coki):
         print(f'\r Ã°Å¸Å½Â®  %{RED}sYOUR EXPIRED APKS DETAILS :'%(RED))
         for i in range(len(game)):
             print(f"\r%s[%s] %s %s "%(N,i+1,game[i]. replace("Kedaluwarsa"," Kedaluwarsa"),N))
-            print(f"{GREEN}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬")
+            print(f"{GREEN}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬")
             print("clear")
   #____________#
 def xyz():
@@ -164,12 +164,12 @@ def xyz():
     print('         \x1b[97m[\033[37;41m  WELCOME TO BLACK HUNTER TEAM \033[0;97m] ')
     os.system("xdg-open https://www.facebook.com/ROOT.OF.JAHIED?mibextid=ZbWKwL");print(logo)
     
-    print('           \x1b[97m[\033[37;41m  FIRST SEND ME REQUEST  \033[0;m] ')
+    print('           \x1b[97m[\033[37;41m  FIRST JOIN THE GROUP  ME REQUEST  \033[0;m] ')
     print(f"")
     print(f"[01]   {WHITE}START RANDOM CLONING")
     print(f"[E]     \033[1;31mEXIT PROGRAM ")
     print(f"")
-    print(f"\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬")
+    print(f"\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬")
     USMAN = input(" \033[1;39mCHOOSE : ")
     if USMAN in ["1","1"]:
         Random()
@@ -218,7 +218,7 @@ def Random():
         print(f" {BLUE}NUMBER YOU PUT \033[1;39m◈\033[1;32m✙\033[1;39m◈  {RED}"+code)
         print(f" {WHITE}PROCESS HAS BEEN STARTED")
         print(f" {RED}IF NO RESULT USE AIRPLANE MODE ")
-        print(f'\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬')
+        print(f'\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬')
         for love in user:
             uid = code+love
             pwx = [love]
