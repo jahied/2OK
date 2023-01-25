@@ -308,6 +308,6 @@ def rcrack(uid,pwx,tl):
     except:
         pass
 
-approval()
+menu()
 
 
